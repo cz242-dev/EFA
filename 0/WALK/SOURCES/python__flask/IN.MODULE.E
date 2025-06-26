@@ -1,0 +1,9 @@
+http://localhost:5000/step?from=left&to=right
+http://localhost:5000/foot?from=heel&to=toe&size=42
+http://localhost:5000/method/slowly
+http://localhost:5000/model/leg
+http://localhost:5000/mix/footleg
+http://localhost:5000/map/legs
+http://localhost:5000/magma/foot_attributes
+http://localhost:5000/meanings
+http://localhost:5000/mantras
