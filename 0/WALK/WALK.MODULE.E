@@ -1,0 +1,33 @@
+[[WALK]
+    !@method!
+        @SLOWLY
+        @RUN
+        @CASUAL
+        @QUICKLY
+    !#model!
+        #LEG
+        #FOOT
+        #STEP
+        #TYPE
+        #ATTRIBUTES
+    !$mix!
+        $FOOTLEG
+        $LEGTYPE
+    !%map!
+        %LEGS
+        %STEPS
+        %FOOTS
+    !^magma!
+        ^LEG_ATTRIBUTES
+        ^FOOT_ATTRIBUTES
+    !&meaning!
+        &TYPE&STEP&FOOT&LEG
+        &TYPE&FOOT&LEG
+        &TYPE&LEG&ATTRIBUTES
+    !*mantra!
+        *MODULE WALK PROVIDES [&meaning] OF [#model] with [@method]
+        *[&meaning] means [&meaning]] with [@method]
+    (mandala)
+        (!@method!!#model!!$mix!!%map!!^magma!!&meaning!!*mantra!)
+        ((!@method!!#model!!$mix!!%map!!^magma!!&meaning!)[*mantra])
+    ]
